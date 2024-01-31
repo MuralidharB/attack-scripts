@@ -1,0 +1,769 @@
+,name,url,id
+0,LNK Icon Smuggling,https://attack.mitre.org/techniques/T1027/012,T1027.012
+1,Break Process Trees,https://attack.mitre.org/techniques/T1036/009,T1036.009
+2,Cloud Secrets Management Stores,https://attack.mitre.org/techniques/T1555/006,T1555.006
+3,Wi-Fi Discovery,https://attack.mitre.org/techniques/T1016/002,T1016.002
+4,Spearphishing Voice,https://attack.mitre.org/techniques/T1566/004,T1566.004
+5,Spearphishing Voice,https://attack.mitre.org/techniques/T1598/004,T1598.004
+6,Modify Cloud Compute Configurations,https://attack.mitre.org/techniques/T1578/005,T1578.005
+7,Content Injection,https://attack.mitre.org/techniques/T1659,T1659
+8,Ignore Process Interrupts,https://attack.mitre.org/techniques/T1564/011,T1564.011
+9,Financial Theft,https://attack.mitre.org/techniques/T1657,T1657
+10,Impersonation,https://attack.mitre.org/techniques/T1656,T1656
+11,Exfiltration Over Webhook,https://attack.mitre.org/techniques/T1567/004,T1567.004
+12,Additional Container Cluster Roles,https://attack.mitre.org/techniques/T1098/006,T1098.006
+13,Log Enumeration,https://attack.mitre.org/techniques/T1654,T1654
+14,Temporary Elevated Cloud Access,https://attack.mitre.org/techniques/T1548/005,T1548.005
+15,Power Settings,https://attack.mitre.org/techniques/T1653,T1653
+16,Direct Cloud VM Connections,https://attack.mitre.org/techniques/T1021/008,T1021.008
+17,Disable or Modify Linux Audit System,https://attack.mitre.org/techniques/T1562/012,T1562.012
+18,Network Provider DLL,https://attack.mitre.org/techniques/T1556/008,T1556.008
+19,Device Driver Discovery,https://attack.mitre.org/techniques/T1652,T1652
+20,Fileless Storage,https://attack.mitre.org/techniques/T1027/011,T1027.011
+21,Command Obfuscation,https://attack.mitre.org/techniques/T1027/010,T1027.010
+22,Spoof Security Alerting,https://attack.mitre.org/techniques/T1562/011,T1562.011
+23,Chat Messages,https://attack.mitre.org/techniques/T1552/008,T1552.008
+24,Cloud Administration Command,https://attack.mitre.org/techniques/T1651,T1651
+25,Acquire Access,https://attack.mitre.org/techniques/T1650,T1650
+26,Masquerade File Type,https://attack.mitre.org/techniques/T1036/008,T1036.008
+27,Exfiltration to Text Storage Sites,https://attack.mitre.org/techniques/T1567/003,T1567.003
+28,Malvertising,https://attack.mitre.org/techniques/T1583/008,T1583.008
+29,Cloud Services,https://attack.mitre.org/techniques/T1021/007,T1021.007
+30,Socket Filters,https://attack.mitre.org/techniques/T1205/002,T1205.002
+31,SEO Poisoning,https://attack.mitre.org/techniques/T1608/006,T1608.006
+32,Embedded Payloads,https://attack.mitre.org/techniques/T1027/009,T1027.009
+33,Stripped Payloads,https://attack.mitre.org/techniques/T1027/008,T1027.008
+34,Hybrid Identity,https://attack.mitre.org/techniques/T1556/007,T1556.007
+35,Installer Packages,https://attack.mitre.org/techniques/T1546/016,T1546.016
+36,Dynamic API Resolution,https://attack.mitre.org/techniques/T1027/007,T1027.007
+37,Code Repositories,https://attack.mitre.org/techniques/T1593/003,T1593.003
+38,Steal or Forge Authentication Certificates,https://attack.mitre.org/techniques/T1649,T1649
+39,Clear Persistence,https://attack.mitre.org/techniques/T1070/009,T1070.009
+40,Clear Mailbox Data,https://attack.mitre.org/techniques/T1070/008,T1070.008
+41,Serverless,https://attack.mitre.org/techniques/T1584/007,T1584.007
+42,Serverless,https://attack.mitre.org/techniques/T1583/007,T1583.007
+43,Clear Network Connection History and Configurations,https://attack.mitre.org/techniques/T1070/007,T1070.007
+44,Multi-Factor Authentication,https://attack.mitre.org/techniques/T1556/006,T1556.006
+45,Cloud Accounts,https://attack.mitre.org/techniques/T1586/003,T1586.003
+46,Cloud Accounts,https://attack.mitre.org/techniques/T1585/003,T1585.003
+47,Serverless Execution,https://attack.mitre.org/techniques/T1648,T1648
+48,Plist File Modification,https://attack.mitre.org/techniques/T1647,T1647
+49,Debugger Evasion,https://attack.mitre.org/techniques/T1622,T1622
+50,Multi-Factor Authentication Request Generation,https://attack.mitre.org/techniques/T1621,T1621
+51,Terminal Services DLL,https://attack.mitre.org/techniques/T1505/005,T1505.005
+52,DHCP Spoofing,https://attack.mitre.org/techniques/T1557/003,T1557.003
+53,Cloud API,https://attack.mitre.org/techniques/T1059/009,T1059.009
+54,Wordlist Scanning,https://attack.mitre.org/techniques/T1595/003,T1595.003
+55,Device Registration,https://attack.mitre.org/techniques/T1098/005,T1098.005
+56,KernelCallbackTable,https://attack.mitre.org/techniques/T1574/013,T1574.013
+57,Reversible Encryption,https://attack.mitre.org/techniques/T1556/005,T1556.005
+58,ListPlanting,https://attack.mitre.org/techniques/T1055/015,T1055.015
+59,Process Argument Spoofing,https://attack.mitre.org/techniques/T1564/010,T1564.010
+60,Resource Forking,https://attack.mitre.org/techniques/T1564/009,T1564.009
+61,XPC Services,https://attack.mitre.org/techniques/T1559/003,T1559.003
+62,Downgrade Attack,https://attack.mitre.org/techniques/T1562/010,T1562.010
+63,Login Items,https://attack.mitre.org/techniques/T1547/015,T1547.015
+64,Reflective Code Loading,https://attack.mitre.org/techniques/T1620,T1620
+65,Cloud Storage Object Discovery,https://attack.mitre.org/techniques/T1619,T1619
+66,MMC,https://attack.mitre.org/techniques/T1218/014,T1218.014
+67,Mavinject,https://attack.mitre.org/techniques/T1218/013,T1218.013
+68,System Language Discovery,https://attack.mitre.org/techniques/T1614/001,T1614.001
+69,Group Policy Discovery,https://attack.mitre.org/techniques/T1615,T1615
+70,Double File Extension,https://attack.mitre.org/techniques/T1036/007,T1036.007
+71,Safe Mode Boot,https://attack.mitre.org/techniques/T1562/009,T1562.009
+72,Email Hiding Rules,https://attack.mitre.org/techniques/T1564/008,T1564.008
+73,IIS Components,https://attack.mitre.org/techniques/T1505/004,T1505.004
+74,HTML Smuggling,https://attack.mitre.org/techniques/T1027/006,T1027.006
+75,Code Repositories,https://attack.mitre.org/techniques/T1213/003,T1213.003
+76,Code Signing Policy Modification,https://attack.mitre.org/techniques/T1553/006,T1553.006
+77,System Location Discovery,https://attack.mitre.org/techniques/T1614,T1614
+78,Container and Resource Discovery,https://attack.mitre.org/techniques/T1613,T1613
+79,Container API,https://attack.mitre.org/techniques/T1552/007,T1552.007
+80,Build Image on Host,https://attack.mitre.org/techniques/T1612,T1612
+81,Escape to Host,https://attack.mitre.org/techniques/T1611,T1611
+82,Malicious Image,https://attack.mitre.org/techniques/T1204/003,T1204.003
+83,Container Orchestration Job,https://attack.mitre.org/techniques/T1053/007,T1053.007
+84,Deploy Container,https://attack.mitre.org/techniques/T1610,T1610
+85,Container Administration Command,https://attack.mitre.org/techniques/T1609,T1609
+86,Link Target,https://attack.mitre.org/techniques/T1608/005,T1608.005
+87,Drive-by Target,https://attack.mitre.org/techniques/T1608/004,T1608.004
+88,Install Digital Certificate,https://attack.mitre.org/techniques/T1608/003,T1608.003
+89,Upload Tool,https://attack.mitre.org/techniques/T1608/002,T1608.002
+90,Upload Malware,https://attack.mitre.org/techniques/T1608/001,T1608.001
+91,Stage Capabilities,https://attack.mitre.org/techniques/T1608,T1608
+92,Internet Connection Discovery,https://attack.mitre.org/techniques/T1016/001,T1016.001
+93,Mark-of-the-Web Bypass,https://attack.mitre.org/techniques/T1553/005,T1553.005
+94,Password Managers,https://attack.mitre.org/techniques/T1555/005,T1555.005
+95,Domain Trust Modification,https://attack.mitre.org/techniques/T1484/002,T1484.002
+96,Group Policy Modification,https://attack.mitre.org/techniques/T1484/001,T1484.001
+97,Active Setup,https://attack.mitre.org/techniques/T1547/014,T1547.014
+98,SAML Tokens,https://attack.mitre.org/techniques/T1606/002,T1606.002
+99,Web Cookies,https://attack.mitre.org/techniques/T1606/001,T1606.001
+100,Forge Web Credentials,https://attack.mitre.org/techniques/T1606,T1606
+101,Windows Credential Manager,https://attack.mitre.org/techniques/T1555/004,T1555.004
+102,Network Device CLI,https://attack.mitre.org/techniques/T1059/008,T1059.008
+103,Network Device Configuration Dump,https://attack.mitre.org/techniques/T1602/002,T1602.002
+104,TFTP Boot,https://attack.mitre.org/techniques/T1542/005,T1542.005
+105,ROMMONkit,https://attack.mitre.org/techniques/T1542/004,T1542.004
+106,SNMP (MIB Dump),https://attack.mitre.org/techniques/T1602/001,T1602.001
+107,Data from Configuration Repository,https://attack.mitre.org/techniques/T1602,T1602
+108,Downgrade System Image,https://attack.mitre.org/techniques/T1601/002,T1601.002
+109,Patch System Image,https://attack.mitre.org/techniques/T1601/001,T1601.001
+110,Modify System Image,https://attack.mitre.org/techniques/T1601,T1601
+111,Disable Crypto Hardware,https://attack.mitre.org/techniques/T1600/002,T1600.002
+112,Reduce Key Space,https://attack.mitre.org/techniques/T1600/001,T1600.001
+113,Weaken Encryption,https://attack.mitre.org/techniques/T1600,T1600
+114,Network Device Authentication,https://attack.mitre.org/techniques/T1556/004,T1556.004
+115,Network Address Translation Traversal,https://attack.mitre.org/techniques/T1599/001,T1599.001
+116,Network Boundary Bridging,https://attack.mitre.org/techniques/T1599,T1599
+117,Traffic Duplication,https://attack.mitre.org/techniques/T1020/001,T1020.001
+118,ARP Cache Poisoning,https://attack.mitre.org/techniques/T1557/002,T1557.002
+119,Vulnerabilities,https://attack.mitre.org/techniques/T1588/006,T1588.006
+120,Systemd Timers,https://attack.mitre.org/techniques/T1053/006,T1053.006
+121,Disable or Modify Cloud Logs,https://attack.mitre.org/techniques/T1562/008,T1562.008
+122,Print Processors,https://attack.mitre.org/techniques/T1547/012,T1547.012
+123,Spearphishing Link,https://attack.mitre.org/techniques/T1598/003,T1598.003
+124,Spearphishing Attachment,https://attack.mitre.org/techniques/T1598/002,T1598.002
+125,Spearphishing Service,https://attack.mitre.org/techniques/T1598/001,T1598.001
+126,Phishing for Information,https://attack.mitre.org/techniques/T1598,T1598
+127,Purchase Technical Data,https://attack.mitre.org/techniques/T1597/002,T1597.002
+128,Threat Intel Vendors,https://attack.mitre.org/techniques/T1597/001,T1597.001
+129,Search Closed Sources,https://attack.mitre.org/techniques/T1597,T1597
+130,Scan Databases,https://attack.mitre.org/techniques/T1596/005,T1596.005
+131,CDNs,https://attack.mitre.org/techniques/T1596/004,T1596.004
+132,Digital Certificates,https://attack.mitre.org/techniques/T1596/003,T1596.003
+133,DNS/Passive DNS,https://attack.mitre.org/techniques/T1596/001,T1596.001
+134,WHOIS,https://attack.mitre.org/techniques/T1596/002,T1596.002
+135,Search Open Technical Databases,https://attack.mitre.org/techniques/T1596,T1596
+136,Vulnerability Scanning,https://attack.mitre.org/techniques/T1595/002,T1595.002
+137,Scanning IP Blocks,https://attack.mitre.org/techniques/T1595/001,T1595.001
+138,Active Scanning,https://attack.mitre.org/techniques/T1595,T1595
+139,Search Victim-Owned Websites,https://attack.mitre.org/techniques/T1594,T1594
+140,Search Engines,https://attack.mitre.org/techniques/T1593/002,T1593.002
+141,Social Media,https://attack.mitre.org/techniques/T1593/001,T1593.001
+142,Search Open Websites/Domains,https://attack.mitre.org/techniques/T1593,T1593
+143,Client Configurations,https://attack.mitre.org/techniques/T1592/004,T1592.004
+144,Firmware,https://attack.mitre.org/techniques/T1592/003,T1592.003
+145,Software,https://attack.mitre.org/techniques/T1592/002,T1592.002
+146,Hardware,https://attack.mitre.org/techniques/T1592/001,T1592.001
+147,Gather Victim Host Information,https://attack.mitre.org/techniques/T1592,T1592
+148,Identify Roles,https://attack.mitre.org/techniques/T1591/004,T1591.004
+149,Identify Business Tempo,https://attack.mitre.org/techniques/T1591/003,T1591.003
+150,Determine Physical Locations,https://attack.mitre.org/techniques/T1591/001,T1591.001
+151,Business Relationships,https://attack.mitre.org/techniques/T1591/002,T1591.002
+152,Gather Victim Org Information,https://attack.mitre.org/techniques/T1591,T1591
+153,Network Security Appliances,https://attack.mitre.org/techniques/T1590/006,T1590.006
+154,IP Addresses,https://attack.mitre.org/techniques/T1590/005,T1590.005
+155,Network Topology,https://attack.mitre.org/techniques/T1590/004,T1590.004
+156,Network Trust Dependencies,https://attack.mitre.org/techniques/T1590/003,T1590.003
+157,DNS,https://attack.mitre.org/techniques/T1590/002,T1590.002
+158,Domain Properties,https://attack.mitre.org/techniques/T1590/001,T1590.001
+159,Gather Victim Network Information,https://attack.mitre.org/techniques/T1590,T1590
+160,Employee Names,https://attack.mitre.org/techniques/T1589/003,T1589.003
+161,Email Addresses,https://attack.mitre.org/techniques/T1589/002,T1589.002
+162,Credentials,https://attack.mitre.org/techniques/T1589/001,T1589.001
+163,Gather Victim Identity Information,https://attack.mitre.org/techniques/T1589,T1589
+164,Exploits,https://attack.mitre.org/techniques/T1588/005,T1588.005
+165,Digital Certificates,https://attack.mitre.org/techniques/T1588/004,T1588.004
+166,Code Signing Certificates,https://attack.mitre.org/techniques/T1588/003,T1588.003
+167,Tool,https://attack.mitre.org/techniques/T1588/002,T1588.002
+168,Malware,https://attack.mitre.org/techniques/T1588/001,T1588.001
+169,Obtain Capabilities,https://attack.mitre.org/techniques/T1588,T1588
+170,Exploits,https://attack.mitre.org/techniques/T1587/004,T1587.004
+171,Digital Certificates,https://attack.mitre.org/techniques/T1587/003,T1587.003
+172,Code Signing Certificates,https://attack.mitre.org/techniques/T1587/002,T1587.002
+173,Malware,https://attack.mitre.org/techniques/T1587/001,T1587.001
+174,Develop Capabilities,https://attack.mitre.org/techniques/T1587,T1587
+175,Email Accounts,https://attack.mitre.org/techniques/T1586/002,T1586.002
+176,Social Media Accounts,https://attack.mitre.org/techniques/T1586/001,T1586.001
+177,Compromise Accounts,https://attack.mitre.org/techniques/T1586,T1586
+178,Email Accounts,https://attack.mitre.org/techniques/T1585/002,T1585.002
+179,Social Media Accounts,https://attack.mitre.org/techniques/T1585/001,T1585.001
+180,Establish Accounts,https://attack.mitre.org/techniques/T1585,T1585
+181,Web Services,https://attack.mitre.org/techniques/T1584/006,T1584.006
+182,Botnet,https://attack.mitre.org/techniques/T1584/005,T1584.005
+183,Server,https://attack.mitre.org/techniques/T1584/004,T1584.004
+184,Virtual Private Server,https://attack.mitre.org/techniques/T1584/003,T1584.003
+185,DNS Server,https://attack.mitre.org/techniques/T1584/002,T1584.002
+186,Domains,https://attack.mitre.org/techniques/T1584/001,T1584.001
+187,Web Services,https://attack.mitre.org/techniques/T1583/006,T1583.006
+188,Botnet,https://attack.mitre.org/techniques/T1583/005,T1583.005
+189,Server,https://attack.mitre.org/techniques/T1583/004,T1583.004
+190,Virtual Private Server,https://attack.mitre.org/techniques/T1583/003,T1583.003
+191,DNS Server,https://attack.mitre.org/techniques/T1583/002,T1583.002
+192,Compromise Infrastructure,https://attack.mitre.org/techniques/T1584,T1584
+193,Domains,https://attack.mitre.org/techniques/T1583/001,T1583.001
+194,Acquire Infrastructure,https://attack.mitre.org/techniques/T1583,T1583
+195,VBA Stomping,https://attack.mitre.org/techniques/T1564/007,T1564.007
+196,AS-REP Roasting,https://attack.mitre.org/techniques/T1558/004,T1558.004
+197,Cloud Infrastructure Discovery,https://attack.mitre.org/techniques/T1580,T1580
+198,Verclsid,https://attack.mitre.org/techniques/T1218/012,T1218.012
+199,Port Knocking,https://attack.mitre.org/techniques/T1205/001,T1205.001
+200,Run Virtual Instance,https://attack.mitre.org/techniques/T1564/006,T1564.006
+201,Hidden File System,https://attack.mitre.org/techniques/T1564/005,T1564.005
+202,Pluggable Authentication Modules,https://attack.mitre.org/techniques/T1556/003,T1556.003
+203,COR_PROFILER,https://attack.mitre.org/techniques/T1574/012,T1574.012
+204,Disable or Modify Cloud Firewall,https://attack.mitre.org/techniques/T1562/007,T1562.007
+205,SSH Authorized Keys,https://attack.mitre.org/techniques/T1098/004,T1098.004
+206,Environmental Keying,https://attack.mitre.org/techniques/T1480/001,T1480.001
+207,JavaScript,https://attack.mitre.org/techniques/T1059/007,T1059.007
+208,Revert Cloud Instance,https://attack.mitre.org/techniques/T1578/004,T1578.004
+209,Delete Cloud Instance,https://attack.mitre.org/techniques/T1578/003,T1578.003
+210,Create Snapshot,https://attack.mitre.org/techniques/T1578/001,T1578.001
+211,Create Cloud Instance,https://attack.mitre.org/techniques/T1578/002,T1578.002
+212,MSBuild,https://attack.mitre.org/techniques/T1127/001,T1127.001
+213,Indicator Removal from Tools,https://attack.mitre.org/techniques/T1027/005,T1027.005
+214,Indicator Blocking,https://attack.mitre.org/techniques/T1562/006,T1562.006
+215,Asymmetric Cryptography,https://attack.mitre.org/techniques/T1573/002,T1573.002
+216,Symmetric Cryptography,https://attack.mitre.org/techniques/T1573/001,T1573.001
+217,Encrypted Channel,https://attack.mitre.org/techniques/T1573,T1573
+218,Compile After Delivery,https://attack.mitre.org/techniques/T1027/004,T1027.004
+219,Dylib Hijacking,https://attack.mitre.org/techniques/T1574/004,T1574.004
+220,Component Object Model Hijacking,https://attack.mitre.org/techniques/T1546/015,T1546.015
+221,DNS,https://attack.mitre.org/techniques/T1071/004,T1071.004
+222,Mail Protocols,https://attack.mitre.org/techniques/T1071/003,T1071.003
+223,File Transfer Protocols,https://attack.mitre.org/techniques/T1071/002,T1071.002
+224,Web Protocols,https://attack.mitre.org/techniques/T1071/001,T1071.001
+225,Protocol Tunneling,https://attack.mitre.org/techniques/T1572,T1572
+226,Exfiltration Over Unencrypted Non-C2 Protocol,https://attack.mitre.org/techniques/T1048/003,T1048.003
+227,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,https://attack.mitre.org/techniques/T1048/002,T1048.002
+228,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,https://attack.mitre.org/techniques/T1048/001,T1048.001
+229,Protocol Impersonation,https://attack.mitre.org/techniques/T1001/003,T1001.003
+230,Steganography,https://attack.mitre.org/techniques/T1001/002,T1001.002
+231,Junk Data,https://attack.mitre.org/techniques/T1001/001,T1001.001
+232,Non-Standard Encoding,https://attack.mitre.org/techniques/T1132/002,T1132.002
+233,Standard Encoding,https://attack.mitre.org/techniques/T1132/001,T1132.001
+234,Domain Fronting,https://attack.mitre.org/techniques/T1090/004,T1090.004
+235,Multi-hop Proxy,https://attack.mitre.org/techniques/T1090/003,T1090.003
+236,External Proxy,https://attack.mitre.org/techniques/T1090/002,T1090.002
+237,Internal Proxy,https://attack.mitre.org/techniques/T1090/001,T1090.001
+238,One-Way Communication,https://attack.mitre.org/techniques/T1102/003,T1102.003
+239,Bidirectional Communication,https://attack.mitre.org/techniques/T1102/002,T1102.002
+240,Dead Drop Resolver,https://attack.mitre.org/techniques/T1102/001,T1102.001
+241,Non-Standard Port,https://attack.mitre.org/techniques/T1571,T1571
+242,Remote Data Staging,https://attack.mitre.org/techniques/T1074/002,T1074.002
+243,Local Data Staging,https://attack.mitre.org/techniques/T1074/001,T1074.001
+244,Cloud Accounts,https://attack.mitre.org/techniques/T1078/004,T1078.004
+245,NTFS File Attributes,https://attack.mitre.org/techniques/T1564/004,T1564.004
+246,Hidden Window,https://attack.mitre.org/techniques/T1564/003,T1564.003
+247,Local Accounts,https://attack.mitre.org/techniques/T1078/003,T1078.003
+248,Domain Accounts,https://attack.mitre.org/techniques/T1078/002,T1078.002
+249,Default Accounts,https://attack.mitre.org/techniques/T1078/001,T1078.001
+250,Hidden Users,https://attack.mitre.org/techniques/T1564/002,T1564.002
+251,Dynamic Linker Hijacking,https://attack.mitre.org/techniques/T1574/006,T1574.006
+252,DLL Side-Loading,https://attack.mitre.org/techniques/T1574/002,T1574.002
+253,DLL Search Order Hijacking,https://attack.mitre.org/techniques/T1574/001,T1574.001
+254,Path Interception by Search Order Hijacking,https://attack.mitre.org/techniques/T1574/008,T1574.008
+255,Path Interception by PATH Environment Variable,https://attack.mitre.org/techniques/T1574/007,T1574.007
+256,Path Interception by Unquoted Path,https://attack.mitre.org/techniques/T1574/009,T1574.009
+257,Services Registry Permissions Weakness,https://attack.mitre.org/techniques/T1574/011,T1574.011
+258,Executable Installer File Permissions Weakness,https://attack.mitre.org/techniques/T1574/005,T1574.005
+259,Services File Permissions Weakness,https://attack.mitre.org/techniques/T1574/010,T1574.010
+260,Hijack Execution Flow,https://attack.mitre.org/techniques/T1574,T1574
+261,Local Groups,https://attack.mitre.org/techniques/T1069/001,T1069.001
+262,Lateral Tool Transfer,https://attack.mitre.org/techniques/T1570,T1570
+263,DNS Calculation,https://attack.mitre.org/techniques/T1568/003,T1568.003
+264,Malicious File,https://attack.mitre.org/techniques/T1204/002,T1204.002
+265,Malicious Link,https://attack.mitre.org/techniques/T1204/001,T1204.001
+266,Compromise Hardware Supply Chain,https://attack.mitre.org/techniques/T1195/003,T1195.003
+267,Compromise Software Supply Chain,https://attack.mitre.org/techniques/T1195/002,T1195.002
+268,Compromise Software Dependencies and Development Tools,https://attack.mitre.org/techniques/T1195/001,T1195.001
+269,Fast Flux DNS,https://attack.mitre.org/techniques/T1568/001,T1568.001
+270,Exfiltration over USB,https://attack.mitre.org/techniques/T1052/001,T1052.001
+271,Service Execution,https://attack.mitre.org/techniques/T1569/002,T1569.002
+272,Launchctl,https://attack.mitre.org/techniques/T1569/001,T1569.001
+273,System Services,https://attack.mitre.org/techniques/T1569,T1569
+274,Domain Generation Algorithms,https://attack.mitre.org/techniques/T1568/002,T1568.002
+275,Dynamic Resolution,https://attack.mitre.org/techniques/T1568,T1568
+276,Exfiltration Over Bluetooth,https://attack.mitre.org/techniques/T1011/001,T1011.001
+277,Exfiltration to Cloud Storage,https://attack.mitre.org/techniques/T1567/002,T1567.002
+278,Exfiltration to Code Repository,https://attack.mitre.org/techniques/T1567/001,T1567.001
+279,Python,https://attack.mitre.org/techniques/T1059/006,T1059.006
+280,Visual Basic,https://attack.mitre.org/techniques/T1059/005,T1059.005
+281,Unix Shell,https://attack.mitre.org/techniques/T1059/004,T1059.004
+282,Windows Command Shell,https://attack.mitre.org/techniques/T1059/003,T1059.003
+283,AppleScript,https://attack.mitre.org/techniques/T1059/002,T1059.002
+284,PowerShell,https://attack.mitre.org/techniques/T1059/001,T1059.001
+285,Exfiltration Over Web Service,https://attack.mitre.org/techniques/T1567,T1567
+286,Time Based Evasion,https://attack.mitre.org/techniques/T1497/003,T1497.003
+287,User Activity Based Checks,https://attack.mitre.org/techniques/T1497/002,T1497.002
+288,System Checks,https://attack.mitre.org/techniques/T1497/001,T1497.001
+289,Reflection Amplification,https://attack.mitre.org/techniques/T1498/002,T1498.002
+290,Direct Network Flood,https://attack.mitre.org/techniques/T1498/001,T1498.001
+291,Spearphishing via Service,https://attack.mitre.org/techniques/T1566/003,T1566.003
+292,Spearphishing Link,https://attack.mitre.org/techniques/T1566/002,T1566.002
+293,Spearphishing Attachment,https://attack.mitre.org/techniques/T1566/001,T1566.001
+294,Phishing,https://attack.mitre.org/techniques/T1566,T1566
+295,Runtime Data Manipulation,https://attack.mitre.org/techniques/T1565/003,T1565.003
+296,Transmitted Data Manipulation,https://attack.mitre.org/techniques/T1565/002,T1565.002
+297,Stored Data Manipulation,https://attack.mitre.org/techniques/T1565/001,T1565.001
+298,Data Manipulation,https://attack.mitre.org/techniques/T1565,T1565
+299,Hidden Files and Directories,https://attack.mitre.org/techniques/T1564/001,T1564.001
+300,Hide Artifacts,https://attack.mitre.org/techniques/T1564,T1564
+301,RDP Hijacking,https://attack.mitre.org/techniques/T1563/002,T1563.002
+302,SSH Hijacking,https://attack.mitre.org/techniques/T1563/001,T1563.001
+303,Remote Service Session Hijacking,https://attack.mitre.org/techniques/T1563,T1563
+304,Security Software Discovery,https://attack.mitre.org/techniques/T1518/001,T1518.001
+305,Cloud Groups,https://attack.mitre.org/techniques/T1069/003,T1069.003
+306,Domain Groups,https://attack.mitre.org/techniques/T1069/002,T1069.002
+307,Cloud Account,https://attack.mitre.org/techniques/T1087/004,T1087.004
+308,Email Account,https://attack.mitre.org/techniques/T1087/003,T1087.003
+309,Domain Account,https://attack.mitre.org/techniques/T1087/002,T1087.002
+310,Local Account,https://attack.mitre.org/techniques/T1087/001,T1087.001
+311,Install Root Certificate,https://attack.mitre.org/techniques/T1553/004,T1553.004
+312,Disable or Modify System Firewall,https://attack.mitre.org/techniques/T1562/004,T1562.004
+313,Impair Command History Logging,https://attack.mitre.org/techniques/T1562/003,T1562.003
+314,Disable Windows Event Logging,https://attack.mitre.org/techniques/T1562/002,T1562.002
+315,Disable or Modify Tools,https://attack.mitre.org/techniques/T1562/001,T1562.001
+316,Impair Defenses,https://attack.mitre.org/techniques/T1562,T1562
+317,LSA Secrets,https://attack.mitre.org/techniques/T1003/004,T1003.004
+318,Cached Domain Credentials,https://attack.mitre.org/techniques/T1003/005,T1003.005
+319,Disk Structure Wipe,https://attack.mitre.org/techniques/T1561/002,T1561.002
+320,Disk Content Wipe,https://attack.mitre.org/techniques/T1561/001,T1561.001
+321,Disk Wipe,https://attack.mitre.org/techniques/T1561,T1561
+322,Archive via Custom Method,https://attack.mitre.org/techniques/T1560/003,T1560.003
+323,Archive via Library,https://attack.mitre.org/techniques/T1560/002,T1560.002
+324,Archive via Utility,https://attack.mitre.org/techniques/T1560/001,T1560.001
+325,Archive Collected Data,https://attack.mitre.org/techniques/T1560,T1560
+326,Application or System Exploitation,https://attack.mitre.org/techniques/T1499/004,T1499.004
+327,Application Exhaustion Flood,https://attack.mitre.org/techniques/T1499/003,T1499.003
+328,Service Exhaustion Flood,https://attack.mitre.org/techniques/T1499/002,T1499.002
+329,OS Exhaustion Flood,https://attack.mitre.org/techniques/T1499/001,T1499.001
+330,External Defacement,https://attack.mitre.org/techniques/T1491/002,T1491.002
+331,Internal Defacement,https://attack.mitre.org/techniques/T1491/001,T1491.001
+332,Email Forwarding Rule,https://attack.mitre.org/techniques/T1114/003,T1114.003
+333,Remote Email Collection,https://attack.mitre.org/techniques/T1114/002,T1114.002
+334,Local Email Collection,https://attack.mitre.org/techniques/T1114/001,T1114.001
+335,SID-History Injection,https://attack.mitre.org/techniques/T1134/005,T1134.005
+336,Parent PID Spoofing,https://attack.mitre.org/techniques/T1134/004,T1134.004
+337,Make and Impersonate Token,https://attack.mitre.org/techniques/T1134/003,T1134.003
+338,Create Process with Token,https://attack.mitre.org/techniques/T1134/002,T1134.002
+339,Token Impersonation/Theft,https://attack.mitre.org/techniques/T1134/001,T1134.001
+340,Sharepoint,https://attack.mitre.org/techniques/T1213/002,T1213.002
+341,Confluence,https://attack.mitre.org/techniques/T1213/001,T1213.001
+342,Credentials from Web Browsers,https://attack.mitre.org/techniques/T1555/003,T1555.003
+343,Securityd Memory,https://attack.mitre.org/techniques/T1555/002,T1555.002
+344,Keychain,https://attack.mitre.org/techniques/T1555/001,T1555.001
+345,Dynamic Data Exchange,https://attack.mitre.org/techniques/T1559/002,T1559.002
+346,Component Object Model,https://attack.mitre.org/techniques/T1559/001,T1559.001
+347,Inter-Process Communication,https://attack.mitre.org/techniques/T1559,T1559
+348,Silver Ticket,https://attack.mitre.org/techniques/T1558/002,T1558.002
+349,Golden Ticket,https://attack.mitre.org/techniques/T1558/001,T1558.001
+350,Steal or Forge Kerberos Tickets,https://attack.mitre.org/techniques/T1558,T1558
+351,LLMNR/NBT-NS Poisoning and SMB Relay,https://attack.mitre.org/techniques/T1557/001,T1557.001
+352,Adversary-in-the-Middle,https://attack.mitre.org/techniques/T1557,T1557
+353,Password Filter DLL,https://attack.mitre.org/techniques/T1556/002,T1556.002
+354,Domain Controller Authentication,https://attack.mitre.org/techniques/T1556/001,T1556.001
+355,Modify Authentication Process,https://attack.mitre.org/techniques/T1556,T1556
+356,Credential API Hooking,https://attack.mitre.org/techniques/T1056/004,T1056.004
+357,Web Portal Capture,https://attack.mitre.org/techniques/T1056/003,T1056.003
+358,GUI Input Capture,https://attack.mitre.org/techniques/T1056/002,T1056.002
+359,Keylogging,https://attack.mitre.org/techniques/T1056/001,T1056.001
+360,Credentials from Password Stores,https://attack.mitre.org/techniques/T1555,T1555
+361,Cloud Instance Metadata API,https://attack.mitre.org/techniques/T1552/005,T1552.005
+362,/etc/passwd and /etc/shadow,https://attack.mitre.org/techniques/T1003/008,T1003.008
+363,Proc Filesystem,https://attack.mitre.org/techniques/T1003/007,T1003.007
+364,DCSync,https://attack.mitre.org/techniques/T1003/006,T1003.006
+365,Kerberoasting,https://attack.mitre.org/techniques/T1558/003,T1558.003
+366,Group Policy Preferences,https://attack.mitre.org/techniques/T1552/006,T1552.006
+367,NTDS,https://attack.mitre.org/techniques/T1003/003,T1003.003
+368,Security Account Manager,https://attack.mitre.org/techniques/T1003/002,T1003.002
+369,LSASS Memory,https://attack.mitre.org/techniques/T1003/001,T1003.001
+370,Credential Stuffing,https://attack.mitre.org/techniques/T1110/004,T1110.004
+371,Password Spraying,https://attack.mitre.org/techniques/T1110/003,T1110.003
+372,Password Cracking,https://attack.mitre.org/techniques/T1110/002,T1110.002
+373,Password Guessing,https://attack.mitre.org/techniques/T1110/001,T1110.001
+374,Windows Remote Management,https://attack.mitre.org/techniques/T1021/006,T1021.006
+375,VNC,https://attack.mitre.org/techniques/T1021/005,T1021.005
+376,SSH,https://attack.mitre.org/techniques/T1021/004,T1021.004
+377,Distributed Component Object Model,https://attack.mitre.org/techniques/T1021/003,T1021.003
+378,SMB/Windows Admin Shares,https://attack.mitre.org/techniques/T1021/002,T1021.002
+379,Remote Desktop Protocol,https://attack.mitre.org/techniques/T1021/001,T1021.001
+380,Compromise Client Software Binary,https://attack.mitre.org/techniques/T1554,T1554
+381,Space after Filename,https://attack.mitre.org/techniques/T1036/006,T1036.006
+382,Match Legitimate Name or Location,https://attack.mitre.org/techniques/T1036/005,T1036.005
+383,Masquerade Task or Service,https://attack.mitre.org/techniques/T1036/004,T1036.004
+384,Rename System Utilities,https://attack.mitre.org/techniques/T1036/003,T1036.003
+385,Right-to-Left Override,https://attack.mitre.org/techniques/T1036/002,T1036.002
+386,Invalid Code Signature,https://attack.mitre.org/techniques/T1036/001,T1036.001
+387,SIP and Trust Provider Hijacking,https://attack.mitre.org/techniques/T1553/003,T1553.003
+388,Code Signing,https://attack.mitre.org/techniques/T1553/002,T1553.002
+389,Gatekeeper Bypass,https://attack.mitre.org/techniques/T1553/001,T1553.001
+390,Subvert Trust Controls,https://attack.mitre.org/techniques/T1553,T1553
+391,Steganography,https://attack.mitre.org/techniques/T1027/003,T1027.003
+392,Software Packing,https://attack.mitre.org/techniques/T1027/002,T1027.002
+393,Binary Padding,https://attack.mitre.org/techniques/T1027/001,T1027.001
+394,Linux and Mac File and Directory Permissions Modification,https://attack.mitre.org/techniques/T1222/002,T1222.002
+395,Windows File and Directory Permissions Modification,https://attack.mitre.org/techniques/T1222/001,T1222.001
+396,Private Keys,https://attack.mitre.org/techniques/T1552/004,T1552.004
+397,Bash History,https://attack.mitre.org/techniques/T1552/003,T1552.003
+398,Credentials in Registry,https://attack.mitre.org/techniques/T1552/002,T1552.002
+399,Credentials In Files,https://attack.mitre.org/techniques/T1552/001,T1552.001
+400,Unsecured Credentials,https://attack.mitre.org/techniques/T1552,T1552
+401,PubPrn,https://attack.mitre.org/techniques/T1216/001,T1216.001
+402,Timestomp,https://attack.mitre.org/techniques/T1070/006,T1070.006
+403,Network Share Connection Removal,https://attack.mitre.org/techniques/T1070/005,T1070.005
+404,File Deletion,https://attack.mitre.org/techniques/T1070/004,T1070.004
+405,Clear Command History,https://attack.mitre.org/techniques/T1070/003,T1070.003
+406,Web Session Cookie,https://attack.mitre.org/techniques/T1550/004,T1550.004
+407,Application Access Token,https://attack.mitre.org/techniques/T1550/001,T1550.001
+408,Pass the Ticket,https://attack.mitre.org/techniques/T1550/003,T1550.003
+409,Pass the Hash,https://attack.mitre.org/techniques/T1550/002,T1550.002
+410,Use Alternate Authentication Material,https://attack.mitre.org/techniques/T1550,T1550
+411,Elevated Execution with Prompt,https://attack.mitre.org/techniques/T1548/004,T1548.004
+412,Sudo and Sudo Caching,https://attack.mitre.org/techniques/T1548/003,T1548.003
+413,Bypass User Account Control,https://attack.mitre.org/techniques/T1548/002,T1548.002
+414,Setuid and Setgid,https://attack.mitre.org/techniques/T1548/001,T1548.001
+415,Abuse Elevation Control Mechanism,https://attack.mitre.org/techniques/T1548,T1548
+416,Cloud Account,https://attack.mitre.org/techniques/T1136/003,T1136.003
+417,Clear Linux or Mac System Logs,https://attack.mitre.org/techniques/T1070/002,T1070.002
+418,Clear Windows Event Logs,https://attack.mitre.org/techniques/T1070/001,T1070.001
+419,Domain Account,https://attack.mitre.org/techniques/T1136/002,T1136.002
+420,Local Account,https://attack.mitre.org/techniques/T1136/001,T1136.001
+421,Plist Modification,https://attack.mitre.org/techniques/T1547/011,T1547.011
+422,Port Monitors,https://attack.mitre.org/techniques/T1547/010,T1547.010
+423,Shortcut Modification,https://attack.mitre.org/techniques/T1547/009,T1547.009
+424,LSASS Driver,https://attack.mitre.org/techniques/T1547/008,T1547.008
+425,Re-opened Applications,https://attack.mitre.org/techniques/T1547/007,T1547.007
+426,Kernel Modules and Extensions,https://attack.mitre.org/techniques/T1547/006,T1547.006
+427,Security Support Provider,https://attack.mitre.org/techniques/T1547/005,T1547.005
+428,Winlogon Helper DLL,https://attack.mitre.org/techniques/T1547/004,T1547.004
+429,Time Providers,https://attack.mitre.org/techniques/T1547/003,T1547.003
+430,Emond,https://attack.mitre.org/techniques/T1546/014,T1546.014
+431,PowerShell Profile,https://attack.mitre.org/techniques/T1546/013,T1546.013
+432,Image File Execution Options Injection,https://attack.mitre.org/techniques/T1546/012,T1546.012
+433,Odbcconf,https://attack.mitre.org/techniques/T1218/008,T1218.008
+434,Application Shimming,https://attack.mitre.org/techniques/T1546/011,T1546.011
+435,Authentication Package,https://attack.mitre.org/techniques/T1547/002,T1547.002
+436,AppInit DLLs,https://attack.mitre.org/techniques/T1546/010,T1546.010
+437,AppCert DLLs,https://attack.mitre.org/techniques/T1546/009,T1546.009
+438,Msiexec,https://attack.mitre.org/techniques/T1218/007,T1218.007
+439,Accessibility Features,https://attack.mitre.org/techniques/T1546/008,T1546.008
+440,Netsh Helper DLL,https://attack.mitre.org/techniques/T1546/007,T1546.007
+441,LC_LOAD_DYLIB Addition,https://attack.mitre.org/techniques/T1546/006,T1546.006
+442,Trap,https://attack.mitre.org/techniques/T1546/005,T1546.005
+443,Unix Shell Configuration Modification,https://attack.mitre.org/techniques/T1546/004,T1546.004
+444,Windows Management Instrumentation Event Subscription,https://attack.mitre.org/techniques/T1546/003,T1546.003
+445,Screensaver,https://attack.mitre.org/techniques/T1546/002,T1546.002
+446,Change Default File Association,https://attack.mitre.org/techniques/T1546/001,T1546.001
+447,Registry Run Keys / Startup Folder,https://attack.mitre.org/techniques/T1547/001,T1547.001
+448,Control Panel,https://attack.mitre.org/techniques/T1218/002,T1218.002
+449,Regsvr32,https://attack.mitre.org/techniques/T1218/010,T1218.010
+450,Regsvcs/Regasm,https://attack.mitre.org/techniques/T1218/009,T1218.009
+451,Mshta,https://attack.mitre.org/techniques/T1218/005,T1218.005
+452,InstallUtil,https://attack.mitre.org/techniques/T1218/004,T1218.004
+453,Compiled HTML File,https://attack.mitre.org/techniques/T1218/001,T1218.001
+454,CMSTP,https://attack.mitre.org/techniques/T1218/003,T1218.003
+455,Rundll32,https://attack.mitre.org/techniques/T1218/011,T1218.011
+456,Boot or Logon Autostart Execution,https://attack.mitre.org/techniques/T1547,T1547
+457,Event Triggered Execution,https://attack.mitre.org/techniques/T1546,T1546
+458,Additional Cloud Roles,https://attack.mitre.org/techniques/T1098/003,T1098.003
+459,Additional Email Delegate Permissions,https://attack.mitre.org/techniques/T1098/002,T1098.002
+460,Additional Cloud Credentials,https://attack.mitre.org/techniques/T1098/001,T1098.001
+461,Launch Daemon,https://attack.mitre.org/techniques/T1543/004,T1543.004
+462,Windows Service,https://attack.mitre.org/techniques/T1543/003,T1543.003
+463,Systemd Service,https://attack.mitre.org/techniques/T1543/002,T1543.002
+464,Launch Agent,https://attack.mitre.org/techniques/T1543/001,T1543.001
+465,Startup Items,https://attack.mitre.org/techniques/T1037/005,T1037.005
+466,RC Scripts,https://attack.mitre.org/techniques/T1037/004,T1037.004
+467,Process Hollowing,https://attack.mitre.org/techniques/T1055/012,T1055.012
+468,Process Doppelgänging,https://attack.mitre.org/techniques/T1055/013,T1055.013
+469,Extra Window Memory Injection,https://attack.mitre.org/techniques/T1055/011,T1055.011
+470,VDSO Hijacking,https://attack.mitre.org/techniques/T1055/014,T1055.014
+471,Proc Memory,https://attack.mitre.org/techniques/T1055/009,T1055.009
+472,Ptrace System Calls,https://attack.mitre.org/techniques/T1055/008,T1055.008
+473,Thread Local Storage,https://attack.mitre.org/techniques/T1055/005,T1055.005
+474,Asynchronous Procedure Call,https://attack.mitre.org/techniques/T1055/004,T1055.004
+475,Thread Execution Hijacking,https://attack.mitre.org/techniques/T1055/003,T1055.003
+476,Portable Executable Injection,https://attack.mitre.org/techniques/T1055/002,T1055.002
+477,Dynamic-link Library Injection,https://attack.mitre.org/techniques/T1055/001,T1055.001
+478,Network Logon Script,https://attack.mitre.org/techniques/T1037/003,T1037.003
+479,Create or Modify System Process,https://attack.mitre.org/techniques/T1543,T1543
+480,Login Hook,https://attack.mitre.org/techniques/T1037/002,T1037.002
+481,Logon Script (Windows),https://attack.mitre.org/techniques/T1037/001,T1037.001
+482,Bootkit,https://attack.mitre.org/techniques/T1542/003,T1542.003
+483,Component Firmware,https://attack.mitre.org/techniques/T1542/002,T1542.002
+484,System Firmware,https://attack.mitre.org/techniques/T1542/001,T1542.001
+485,Web Shell,https://attack.mitre.org/techniques/T1505/003,T1505.003
+486,Transport Agent,https://attack.mitre.org/techniques/T1505/002,T1505.002
+487,SQL Stored Procedures,https://attack.mitre.org/techniques/T1505/001,T1505.001
+488,Cron,https://attack.mitre.org/techniques/T1053/003,T1053.003
+489,Launchd,https://attack.mitre.org/techniques/T1053/004,T1053.004
+490,At (Linux),https://attack.mitre.org/techniques/T1053/001,T1053.001
+491,Scheduled Task,https://attack.mitre.org/techniques/T1053/005,T1053.005
+492,At,https://attack.mitre.org/techniques/T1053/002,T1053.002
+493,Pre-OS Boot,https://attack.mitre.org/techniques/T1542,T1542
+494,Office Template Macros,https://attack.mitre.org/techniques/T1137/001,T1137.001
+495,Outlook Home Page,https://attack.mitre.org/techniques/T1137/004,T1137.004
+496,Outlook Forms,https://attack.mitre.org/techniques/T1137/003,T1137.003
+497,Outlook Rules,https://attack.mitre.org/techniques/T1137/005,T1137.005
+498,Add-ins,https://attack.mitre.org/techniques/T1137/006,T1137.006
+499,Office Test,https://attack.mitre.org/techniques/T1137/002,T1137.002
+500,Account Access Removal,https://attack.mitre.org/techniques/T1531,T1531
+501,Web Session Cookie,https://attack.mitre.org/techniques/T1506,T1506
+502,Steal Web Session Cookie,https://attack.mitre.org/techniques/T1539,T1539
+503,System Shutdown/Reboot,https://attack.mitre.org/techniques/T1529,T1529
+504,Emond,https://attack.mitre.org/techniques/T1519,T1519
+505,Software Discovery,https://attack.mitre.org/techniques/T1518,T1518
+506,XDG Autostart Entries,https://attack.mitre.org/techniques/T1547/013,T1547.013
+507,Internal Spearphishing,https://attack.mitre.org/techniques/T1534,T1534
+508,Steal Application Access Token,https://attack.mitre.org/techniques/T1528,T1528
+509,Cloud Instance Metadata API,https://attack.mitre.org/techniques/T1522,T1522
+510,Revert Cloud Instance,https://attack.mitre.org/techniques/T1536,T1536
+511,Unused/Unsupported Cloud Regions,https://attack.mitre.org/techniques/T1535,T1535
+512,Implant Internal Image,https://attack.mitre.org/techniques/T1525,T1525
+513,Cloud Service Dashboard,https://attack.mitre.org/techniques/T1538,T1538
+514,Data from Cloud Storage,https://attack.mitre.org/techniques/T1530,T1530
+515,Modify Cloud Compute Infrastructure,https://attack.mitre.org/techniques/T1578,T1578
+516,Transfer Data to Cloud Account,https://attack.mitre.org/techniques/T1537,T1537
+517,Cloud Service Discovery,https://attack.mitre.org/techniques/T1526,T1526
+518,Application Access Token,https://attack.mitre.org/techniques/T1527,T1527
+519,Elevated Execution with Prompt,https://attack.mitre.org/techniques/T1514,T1514
+520,Server Software Component,https://attack.mitre.org/techniques/T1505,T1505
+521,Credentials from Web Browsers,https://attack.mitre.org/techniques/T1503,T1503
+522,PowerShell Profile,https://attack.mitre.org/techniques/T1504,T1504
+523,Parent PID Spoofing,https://attack.mitre.org/techniques/T1502,T1502
+524,Compile After Delivery,https://attack.mitre.org/techniques/T1500,T1500
+525,Systemd Service,https://attack.mitre.org/techniques/T1501,T1501
+526,Endpoint Denial of Service,https://attack.mitre.org/techniques/T1499,T1499
+527,Virtualization/Sandbox Evasion,https://attack.mitre.org/techniques/T1497,T1497
+528,Network Denial of Service,https://attack.mitre.org/techniques/T1498,T1498
+529,Resource Hijacking,https://attack.mitre.org/techniques/T1496,T1496
+530,Firmware Corruption,https://attack.mitre.org/techniques/T1495,T1495
+531,Runtime Data Manipulation,https://attack.mitre.org/techniques/T1494,T1494
+532,Transmitted Data Manipulation,https://attack.mitre.org/techniques/T1493,T1493
+533,Stored Data Manipulation,https://attack.mitre.org/techniques/T1492,T1492
+534,Defacement,https://attack.mitre.org/techniques/T1491,T1491
+535,Inhibit System Recovery,https://attack.mitre.org/techniques/T1490,T1490
+536,Service Stop,https://attack.mitre.org/techniques/T1489,T1489
+537,Disk Content Wipe,https://attack.mitre.org/techniques/T1488,T1488
+538,Disk Structure Wipe,https://attack.mitre.org/techniques/T1487,T1487
+539,Data Encrypted for Impact,https://attack.mitre.org/techniques/T1486,T1486
+540,Data Destruction,https://attack.mitre.org/techniques/T1485,T1485
+541,Domain Policy Modification,https://attack.mitre.org/techniques/T1484,T1484
+542,Domain Generation Algorithms,https://attack.mitre.org/techniques/T1483,T1483
+543,Domain Trust Discovery,https://attack.mitre.org/techniques/T1482,T1482
+544,Execution Guardrails,https://attack.mitre.org/techniques/T1480,T1480
+545,Template Injection,https://attack.mitre.org/techniques/T1221,T1221
+546,XSL Script Processing,https://attack.mitre.org/techniques/T1220,T1220
+547,File and Directory Permissions Modification,https://attack.mitre.org/techniques/T1222,T1222
+548,Compiled HTML File,https://attack.mitre.org/techniques/T1223,T1223
+549,Sudo Caching,https://attack.mitre.org/techniques/T1206,T1206
+550,SIP and Trust Provider Hijacking,https://attack.mitre.org/techniques/T1198,T1198
+551,Indirect Command Execution,https://attack.mitre.org/techniques/T1202,T1202
+552,Credentials in Registry,https://attack.mitre.org/techniques/T1214,T1214
+553,Supply Chain Compromise,https://attack.mitre.org/techniques/T1195,T1195
+554,Remote Access Software,https://attack.mitre.org/techniques/T1219,T1219
+555,Traffic Signaling,https://attack.mitre.org/techniques/T1205,T1205
+556,System Binary Proxy Execution,https://attack.mitre.org/techniques/T1218,T1218
+557,Rogue Domain Controller,https://attack.mitre.org/techniques/T1207,T1207
+558,Spearphishing Attachment,https://attack.mitre.org/techniques/T1193,T1193
+559,Exploitation of Remote Services,https://attack.mitre.org/techniques/T1210,T1210
+560,Password Policy Discovery,https://attack.mitre.org/techniques/T1201,T1201
+561,BITS Jobs,https://attack.mitre.org/techniques/T1197,T1197
+562,System Script Proxy Execution,https://attack.mitre.org/techniques/T1216,T1216
+563,User Execution,https://attack.mitre.org/techniques/T1204,T1204
+564,Control Panel Items,https://attack.mitre.org/techniques/T1196,T1196
+565,Kernel Modules and Extensions,https://attack.mitre.org/techniques/T1215,T1215
+566,CMSTP,https://attack.mitre.org/techniques/T1191,T1191
+567,Exploitation for Credential Access,https://attack.mitre.org/techniques/T1212,T1212
+568,Trusted Relationship,https://attack.mitre.org/techniques/T1199,T1199
+569,Kerberoasting,https://attack.mitre.org/techniques/T1208,T1208
+570,Hardware Additions,https://attack.mitre.org/techniques/T1200,T1200
+571,Data from Information Repositories,https://attack.mitre.org/techniques/T1213,T1213
+572,Spearphishing via Service,https://attack.mitre.org/techniques/T1194,T1194
+573,Exploitation for Defense Evasion,https://attack.mitre.org/techniques/T1211,T1211
+574,Time Providers,https://attack.mitre.org/techniques/T1209,T1209
+575,Spearphishing Link,https://attack.mitre.org/techniques/T1192,T1192
+576,Exploit Public-Facing Application,https://attack.mitre.org/techniques/T1190,T1190
+577,Browser Information Discovery,https://attack.mitre.org/techniques/T1217,T1217
+578,Exploitation for Client Execution,https://attack.mitre.org/techniques/T1203,T1203
+579,Drive-by Compromise,https://attack.mitre.org/techniques/T1189,T1189
+580,LLMNR/NBT-NS Poisoning and Relay,https://attack.mitre.org/techniques/T1171,T1171
+581,SID-History Injection,https://attack.mitre.org/techniques/T1178,T1178
+582,Domain Fronting,https://attack.mitre.org/techniques/T1172,T1172
+583,Screensaver,https://attack.mitre.org/techniques/T1180,T1180
+584,Browser Extensions,https://attack.mitre.org/techniques/T1176,T1176
+585,AppCert DLLs,https://attack.mitre.org/techniques/T1182,T1182
+586,Extra Window Memory Injection,https://attack.mitre.org/techniques/T1181,T1181
+587,Browser Session Hijacking,https://attack.mitre.org/techniques/T1185,T1185
+588,LSASS Driver,https://attack.mitre.org/techniques/T1177,T1177
+589,Multi-hop Proxy,https://attack.mitre.org/techniques/T1188,T1188
+590,Image File Execution Options Injection,https://attack.mitre.org/techniques/T1183,T1183
+591,Password Filter DLL,https://attack.mitre.org/techniques/T1174,T1174
+592,Process Doppelgänging,https://attack.mitre.org/techniques/T1186,T1186
+593,Dynamic Data Exchange,https://attack.mitre.org/techniques/T1173,T1173
+594,Mshta,https://attack.mitre.org/techniques/T1170,T1170
+595,Forced Authentication,https://attack.mitre.org/techniques/T1187,T1187
+596,SSH Hijacking,https://attack.mitre.org/techniques/T1184,T1184
+597,Hooking,https://attack.mitre.org/techniques/T1179,T1179
+598,Component Object Model and Distributed COM,https://attack.mitre.org/techniques/T1175,T1175
+599,LC_LOAD_DYLIB Addition,https://attack.mitre.org/techniques/T1161,T1161
+600,HISTCONTROL,https://attack.mitre.org/techniques/T1148,T1148
+601,Rc.common,https://attack.mitre.org/techniques/T1163,T1163
+602,Launchctl,https://attack.mitre.org/techniques/T1152,T1152
+603,Private Keys,https://attack.mitre.org/techniques/T1145,T1145
+604,Malicious Shell Modification,https://attack.mitre.org/techniques/T1156,T1156
+605,Hidden Window,https://attack.mitre.org/techniques/T1143,T1143
+606,Plist Modification,https://attack.mitre.org/techniques/T1150,T1150
+607,Network Share Discovery,https://attack.mitre.org/techniques/T1135,T1135
+608,Deobfuscate/Decode Files or Information,https://attack.mitre.org/techniques/T1140,T1140
+609,Bash History,https://attack.mitre.org/techniques/T1139,T1139
+610,Source,https://attack.mitre.org/techniques/T1153,T1153
+611,Startup Items,https://attack.mitre.org/techniques/T1165,T1165
+612,Login Item,https://attack.mitre.org/techniques/T1162,T1162
+613,Securityd Memory,https://attack.mitre.org/techniques/T1167,T1167
+614,Application Shimming,https://attack.mitre.org/techniques/T1138,T1138
+615,LC_MAIN Hijacking,https://attack.mitre.org/techniques/T1149,T1149
+616,Launch Agent,https://attack.mitre.org/techniques/T1159,T1159
+617,Input Prompt,https://attack.mitre.org/techniques/T1141,T1141
+618,Gatekeeper Bypass,https://attack.mitre.org/techniques/T1144,T1144
+619,Keychain,https://attack.mitre.org/techniques/T1142,T1142
+620,Dylib Hijacking,https://attack.mitre.org/techniques/T1157,T1157
+621,Access Token Manipulation,https://attack.mitre.org/techniques/T1134,T1134
+622,Space after Filename,https://attack.mitre.org/techniques/T1151,T1151
+623,Launch Daemon,https://attack.mitre.org/techniques/T1160,T1160
+624,Hidden Users,https://attack.mitre.org/techniques/T1147,T1147
+625,Local Job Scheduling,https://attack.mitre.org/techniques/T1168,T1168
+626,Clear Command History,https://attack.mitre.org/techniques/T1146,T1146
+627,Create Account,https://attack.mitre.org/techniques/T1136,T1136
+628,Office Application Startup,https://attack.mitre.org/techniques/T1137,T1137
+629,AppleScript,https://attack.mitre.org/techniques/T1155,T1155
+630,Re-opened Applications,https://attack.mitre.org/techniques/T1164,T1164
+631,Sudo,https://attack.mitre.org/techniques/T1169,T1169
+632,Trap,https://attack.mitre.org/techniques/T1154,T1154
+633,Setuid and Setgid,https://attack.mitre.org/techniques/T1166,T1166
+634,Hidden Files and Directories,https://attack.mitre.org/techniques/T1158,T1158
+635,External Remote Services,https://attack.mitre.org/techniques/T1133,T1133
+636,Data Encoding,https://attack.mitre.org/techniques/T1132,T1132
+637,Authentication Package,https://attack.mitre.org/techniques/T1131,T1131
+638,Install Root Certificate,https://attack.mitre.org/techniques/T1130,T1130
+639,Shared Modules,https://attack.mitre.org/techniques/T1129,T1129
+640,Netsh Helper DLL,https://attack.mitre.org/techniques/T1128,T1128
+641,Trusted Developer Utilities Proxy Execution,https://attack.mitre.org/techniques/T1127,T1127
+642,Network Share Connection Removal,https://attack.mitre.org/techniques/T1126,T1126
+643,Video Capture,https://attack.mitre.org/techniques/T1125,T1125
+644,System Time Discovery,https://attack.mitre.org/techniques/T1124,T1124
+645,Audio Capture,https://attack.mitre.org/techniques/T1123,T1123
+646,Component Object Model Hijacking,https://attack.mitre.org/techniques/T1122,T1122
+647,Regsvcs/Regasm,https://attack.mitre.org/techniques/T1121,T1121
+648,Peripheral Device Discovery,https://attack.mitre.org/techniques/T1120,T1120
+649,Automated Collection,https://attack.mitre.org/techniques/T1119,T1119
+650,InstallUtil,https://attack.mitre.org/techniques/T1118,T1118
+651,Regsvr32,https://attack.mitre.org/techniques/T1117,T1117
+652,Code Signing,https://attack.mitre.org/techniques/T1116,T1116
+653,Clipboard Data,https://attack.mitre.org/techniques/T1115,T1115
+654,Email Collection,https://attack.mitre.org/techniques/T1114,T1114
+655,Screen Capture,https://attack.mitre.org/techniques/T1113,T1113
+656,Modify Registry,https://attack.mitre.org/techniques/T1112,T1112
+657,Multi-Factor Authentication Interception,https://attack.mitre.org/techniques/T1111,T1111
+658,Brute Force,https://attack.mitre.org/techniques/T1110,T1110
+659,Component Firmware,https://attack.mitre.org/techniques/T1109,T1109
+660,Redundant Access,https://attack.mitre.org/techniques/T1108,T1108
+661,File Deletion,https://attack.mitre.org/techniques/T1107,T1107
+662,Native API,https://attack.mitre.org/techniques/T1106,T1106
+663,Ingress Tool Transfer,https://attack.mitre.org/techniques/T1105,T1105
+664,Multi-Stage Channels,https://attack.mitre.org/techniques/T1104,T1104
+665,AppInit DLLs,https://attack.mitre.org/techniques/T1103,T1103
+666,Web Service,https://attack.mitre.org/techniques/T1102,T1102
+667,Security Support Provider,https://attack.mitre.org/techniques/T1101,T1101
+668,Web Shell,https://attack.mitre.org/techniques/T1100,T1100
+669,Timestomp,https://attack.mitre.org/techniques/T1099,T1099
+670,Account Manipulation,https://attack.mitre.org/techniques/T1098,T1098
+671,Pass the Ticket,https://attack.mitre.org/techniques/T1097,T1097
+672,NTFS File Attributes,https://attack.mitre.org/techniques/T1096,T1096
+673,Non-Application Layer Protocol,https://attack.mitre.org/techniques/T1095,T1095
+674,Custom Command and Control Protocol,https://attack.mitre.org/techniques/T1094,T1094
+675,Process Hollowing,https://attack.mitre.org/techniques/T1093,T1093
+676,Communication Through Removable Media,https://attack.mitre.org/techniques/T1092,T1092
+677,Replication Through Removable Media,https://attack.mitre.org/techniques/T1091,T1091
+678,Proxy,https://attack.mitre.org/techniques/T1090,T1090
+679,Disabling Security Tools,https://attack.mitre.org/techniques/T1089,T1089
+680,Bypass User Account Control,https://attack.mitre.org/techniques/T1088,T1088
+681,Account Discovery,https://attack.mitre.org/techniques/T1087,T1087
+682,PowerShell,https://attack.mitre.org/techniques/T1086,T1086
+683,Rundll32,https://attack.mitre.org/techniques/T1085,T1085
+684,Windows Management Instrumentation Event Subscription,https://attack.mitre.org/techniques/T1084,T1084
+685,File and Directory Discovery,https://attack.mitre.org/techniques/T1083,T1083
+686,System Information Discovery,https://attack.mitre.org/techniques/T1082,T1082
+687,Credentials in Files,https://attack.mitre.org/techniques/T1081,T1081
+688,Taint Shared Content,https://attack.mitre.org/techniques/T1080,T1080
+689,Multilayer Encryption,https://attack.mitre.org/techniques/T1079,T1079
+690,Valid Accounts,https://attack.mitre.org/techniques/T1078,T1078
+691,Windows Admin Shares,https://attack.mitre.org/techniques/T1077,T1077
+692,Remote Desktop Protocol,https://attack.mitre.org/techniques/T1076,T1076
+693,Pass the Hash,https://attack.mitre.org/techniques/T1075,T1075
+694,Data Staged,https://attack.mitre.org/techniques/T1074,T1074
+695,DLL Side-Loading,https://attack.mitre.org/techniques/T1073,T1073
+696,Software Deployment Tools,https://attack.mitre.org/techniques/T1072,T1072
+697,Application Layer Protocol,https://attack.mitre.org/techniques/T1071,T1071
+698,Indicator Removal,https://attack.mitre.org/techniques/T1070,T1070
+699,Permission Groups Discovery,https://attack.mitre.org/techniques/T1069,T1069
+700,Exploitation for Privilege Escalation,https://attack.mitre.org/techniques/T1068,T1068
+701,Bootkit,https://attack.mitre.org/techniques/T1067,T1067
+702,Indicator Removal from Tools,https://attack.mitre.org/techniques/T1066,T1066
+703,Uncommonly Used Port,https://attack.mitre.org/techniques/T1065,T1065
+704,Scripting,https://attack.mitre.org/techniques/T1064,T1064
+705,Security Software Discovery,https://attack.mitre.org/techniques/T1063,T1063
+706,Hypervisor,https://attack.mitre.org/techniques/T1062,T1062
+707,Graphical User Interface,https://attack.mitre.org/techniques/T1061,T1061
+708,Registry Run Keys / Startup Folder,https://attack.mitre.org/techniques/T1060,T1060
+709,Command and Scripting Interpreter,https://attack.mitre.org/techniques/T1059,T1059
+710,Service Registry Permissions Weakness,https://attack.mitre.org/techniques/T1058,T1058
+711,Process Discovery,https://attack.mitre.org/techniques/T1057,T1057
+712,Input Capture,https://attack.mitre.org/techniques/T1056,T1056
+713,Process Injection,https://attack.mitre.org/techniques/T1055,T1055
+714,Indicator Blocking,https://attack.mitre.org/techniques/T1054,T1054
+715,Scheduled Task/Job,https://attack.mitre.org/techniques/T1053,T1053
+716,Exfiltration Over Physical Medium,https://attack.mitre.org/techniques/T1052,T1052
+717,Shared Webroot,https://attack.mitre.org/techniques/T1051,T1051
+718,New Service,https://attack.mitre.org/techniques/T1050,T1050
+719,System Network Connections Discovery,https://attack.mitre.org/techniques/T1049,T1049
+720,Exfiltration Over Alternative Protocol,https://attack.mitre.org/techniques/T1048,T1048
+721,Windows Management Instrumentation,https://attack.mitre.org/techniques/T1047,T1047
+722,Network Service Discovery,https://attack.mitre.org/techniques/T1046,T1046
+723,Software Packing,https://attack.mitre.org/techniques/T1045,T1045
+724,File System Permissions Weakness,https://attack.mitre.org/techniques/T1044,T1044
+725,Commonly Used Port,https://attack.mitre.org/techniques/T1043,T1043
+726,Change Default File Association,https://attack.mitre.org/techniques/T1042,T1042
+727,Exfiltration Over C2 Channel,https://attack.mitre.org/techniques/T1041,T1041
+728,Network Sniffing,https://attack.mitre.org/techniques/T1040,T1040
+729,Data from Network Shared Drive,https://attack.mitre.org/techniques/T1039,T1039
+730,DLL Search Order Hijacking,https://attack.mitre.org/techniques/T1038,T1038
+731,Boot or Logon Initialization Scripts,https://attack.mitre.org/techniques/T1037,T1037
+732,Masquerading,https://attack.mitre.org/techniques/T1036,T1036
+733,Service Execution,https://attack.mitre.org/techniques/T1035,T1035
+734,Path Interception,https://attack.mitre.org/techniques/T1034,T1034
+735,System Owner/User Discovery,https://attack.mitre.org/techniques/T1033,T1033
+736,Standard Cryptographic Protocol,https://attack.mitre.org/techniques/T1032,T1032
+737,Modify Existing Service,https://attack.mitre.org/techniques/T1031,T1031
+738,Data Transfer Size Limits,https://attack.mitre.org/techniques/T1030,T1030
+739,Scheduled Transfer,https://attack.mitre.org/techniques/T1029,T1029
+740,Windows Remote Management,https://attack.mitre.org/techniques/T1028,T1028
+741,Obfuscated Files or Information,https://attack.mitre.org/techniques/T1027,T1027
+742,Multiband Communication,https://attack.mitre.org/techniques/T1026,T1026
+743,Data from Removable Media,https://attack.mitre.org/techniques/T1025,T1025
+744,Custom Cryptographic Protocol,https://attack.mitre.org/techniques/T1024,T1024
+745,Shortcut Modification,https://attack.mitre.org/techniques/T1023,T1023
+746,Data Encrypted,https://attack.mitre.org/techniques/T1022,T1022
+747,Remote Services,https://attack.mitre.org/techniques/T1021,T1021
+748,Automated Exfiltration,https://attack.mitre.org/techniques/T1020,T1020
+749,System Firmware,https://attack.mitre.org/techniques/T1019,T1019
+750,Remote System Discovery,https://attack.mitre.org/techniques/T1018,T1018
+751,Application Deployment Software,https://attack.mitre.org/techniques/T1017,T1017
+752,System Network Configuration Discovery,https://attack.mitre.org/techniques/T1016,T1016
+753,Accessibility Features,https://attack.mitre.org/techniques/T1015,T1015
+754,Rootkit,https://attack.mitre.org/techniques/T1014,T1014
+755,Port Monitors,https://attack.mitre.org/techniques/T1013,T1013
+756,Query Registry,https://attack.mitre.org/techniques/T1012,T1012
+757,Exfiltration Over Other Network Medium,https://attack.mitre.org/techniques/T1011,T1011
+758,Application Window Discovery,https://attack.mitre.org/techniques/T1010,T1010
+759,Binary Padding,https://attack.mitre.org/techniques/T1009,T1009
+760,Fallback Channels,https://attack.mitre.org/techniques/T1008,T1008
+761,System Service Discovery,https://attack.mitre.org/techniques/T1007,T1007
+762,Direct Volume Access,https://attack.mitre.org/techniques/T1006,T1006
+763,Data from Local System,https://attack.mitre.org/techniques/T1005,T1005
+764,Winlogon Helper DLL,https://attack.mitre.org/techniques/T1004,T1004
+765,OS Credential Dumping,https://attack.mitre.org/techniques/T1003,T1003
+766,Data Compressed,https://attack.mitre.org/techniques/T1002,T1002
+767,Data Obfuscation,https://attack.mitre.org/techniques/T1001,T1001

@@ -1,5 +1,6 @@
 import argparse
 import csv
+import json
 import io
 
 from stix2 import TAXIICollectionSource, MemorySource, Filter
@@ -23,6 +24,37 @@ def build_taxii_source(collection_name):
     return MemorySource(stix_data=taxii_ds.query())
 
 
+def get_techniques_by_tactics(src, source_name):
+    """Filters data source by attack-pattern which extracts all ATT&CK Techniques"""
+    filters = [
+        Filter("type", "=", "attack-pattern"),
+        Filter("external_references.source_name", "=", source_name),
+    ]
+
+    results = src.query(filters)
+    kill_phases = []
+    for r in results:
+        for k in r.kill_chain_phases:
+            kill_phases.append(k.phase_name)
+
+    techniques = {}
+    with open("techniques_by_tactics.json", "w") as tf:
+        for tac in list(set(kill_phases)):
+            filters = [
+                Filter("type", "=", "attack-pattern"),
+                Filter("external_references.source_name", "=", source_name),
+                Filter('kill_chain_phases.phase_name', '=', tac)
+            ]
+            results = src.query(filters)
+            techniques[tac] = []
+            for r in results:
+                for e in r.external_references:
+                    if e.get("source_name","") == "mitre-attack":
+                        techniques[tac].append(e.get("url", ""))
+
+        json.dump(techniques, tf)
+
+
 def get_all_techniques(src, source_name, tactic=None):
     """Filters data source by attack-pattern which extracts all ATT&CK Techniques"""
     filters = [
@@ -33,6 +65,23 @@ def get_all_techniques(src, source_name, tactic=None):
         filters.append(Filter('kill_chain_phases.phase_name', '=', tactic))
 
     results = src.query(filters)
+
+    references = []
+    techniques = []
+    with open("sources.urls", "w") as sf, \
+        open("techniques.urls", "w") as tf:
+        for r in results:
+            for e in r.external_references:
+                if e.get("source_name","") == "mitre-attack":
+                    techniques.append(e.get("url", ""))
+
+                references.append(
+                    {"Source":e.get("source_name", "No Source Found"),
+                     "url": e.get("url", "No URL Found"),
+                     "Description":e.get("description", "No Description Found"),
+                    })
+        json.dump(references, sf)
+        json.dump(techniques, tf)
     return remove_deprecated(results)
 
 
@@ -100,7 +149,9 @@ def arg_parse():
 
 def do_mapping(ds, fieldnames, relationship_type, type_filter, source_name, sorting_keys, tactic=None):
     """Main logic to map techniques to mitigations, groups or software"""
+    get_techniques_by_tactics(ds, source_name)
     all_attack_patterns = get_all_techniques(ds, source_name, tactic)
+
     writable_results = []
 
     for attack_pattern in tqdm.tqdm(all_attack_patterns, desc="parsing data for techniques"):

@@ -1,0 +1,210 @@
+https://www.mandiant.com/sites/default/files/2021-09/mandiant-apt1-report.pdf
+https://github.com/oasis-open/cti-stix2-json-schemas/blob/master/examples/threat-reports/apt1.json
+
+Attack Cycle:
+=============
+1. Initial Recon
+2. Initial compromise
+3. Establish Foothold
+4. Escalate Privileges
+5. Internal Recon
+6. Move Laterally
+7. Maintain Presence
+8. Repeat 4
+9. Complete Mission
+
+Backdoors:
+1. The BISCUIT backdoor (so named for the command “bdkzt”) is an illustrative example of the range of commands that
+   APT1 has built into its “standard” backdoors. APT1 has used and steadily modified BISCUIT since as early as
+   2007 and continues to use it presently.
+
+=================================================
+1. APT1 uses some tools and techniques that we have not yet observed being used by other groups including two utilities designed to steal email — GETMAIL and MAPIGET.
+2. APT1 intruders used the “HUC Packet Transmit Tool” or HTRAN
+3. The report calls out the hostname sb.hugesoft.org, which is registered to an APT1 
+4. ZIP file named “Internal_ Discussion_Press_Release_In_Next_Week8.zip”
+5. Below is a sampling of file names that APT1 has used with their malicious ZIP files:
+      2012ChinaUSAviationSymposium.zip
+      Employee-Benefit-and-Overhead-Adjustment-Keys.zip
+      MARKET-COMMENT-Europe-Ends-Sharply-Lower-On-Data-Yields-Jump.zip
+      Negative_Reports_Of_Turkey.zip
+      New_Technology_For_FPGA_And_Its_Developing_Trend.zip
+      North_Korean_launch.zip
+      Oil-Field-Services-Analysis-And-Outlook.zip
+      POWER_GEN_2012.zip
+      Proactive_Investors_One2One_Energy_Investor_Forum.zip
+      Social-Security-Reform.zip
+      South_China_Sea_Security_Assessment_Report.zip
+      Telephonics_Supplier_Manual_v3.zip
+      The_Latest_Syria_Security_Assessment_Report.zip
+      Updated_Office_Contact_v1.zip
+      Updated_Office_Contact_v2.zip
+      Welfare_Reform_and_Benefits_Development_Plan.zip
+      updated_office_contact_v1.zip
+
+While APT1 intruders occasionally use publicly available backdoors such as Poison Ivy and Gh0st RAT
+
+We have documented 42 families of backdoors in “Appendix C: The Malware Arsenal” that APT1 uses that we believe are not publicly available.
+In addition we have provided 1,007 MD5 hashes associated with APT1 malware in Appendix E. We will describe APT1’s backdoors in two categories: “Beachhead Backdoors” and “Standard Backdoors.”
+
+We have provided APT1’s public SSL certificates in Appendix F so people can incorporate them into their network signatures.
+
+Escalation tools
+================
+taBLe 6: Publicly available privilege escalation tools that aPt1 has used
+fgdump Windows password hash dumper http://www.foofus.net/fizzgig/fgdump/
+tool
+Description
+website
+cachedump
+This program extracts cached password hashes from a system’s registry
+Currently packaged with fgdump (below)
+gsecdump
+Obtains password hashes from the Windows registry, including the SAM file, cached domain credentials, and LSA secrets
+http://www.truesec.se
+lslsass
+Dump active logon session password hashes from the lsass process
+http://www.truesec.se
+mimikatz
+A utility primarily used for dumping password hashes
+http://blog.gentilkiwi.com/mimikatz
+pass-the-hash toolkit
+Allows an intruder to “pass” a password hash (without knowing the original password) to log in to systems
+http://oss.coresecurity.com/projects/pshtoolkit.htm
+pwdump7
+Dumps password hashes from the Windows registry
+http://www.tarasco.org/security/pwdump_7/
+pwdumpx
+Dumps password hashes from the Windows registry
+The tool claims its origin as http://reedarvin.thearvins.com/, but the site is not offering this software as of the date of this report
+
+Internal Reconnaissance
+=======================
+@echo off
+ipconfig /all>>”C:\WINNT\Debug\1.txt”
+net start>>”C:\WINNT\Debug\1.txt”
+tasklist /v>>”C:\WINNT\Debug\1.txt”
+net user >>”C:\WINNT\Debug\1.txt”
+net localgroup administrators>>”C:\WINNT\Debug\1.txt”
+netstat -ano>>”C:\WINNT\Debug\1.txt”
+net use>>”C:\WINNT\Debug\1.txt”
+net view>>”C:\WINNT\Debug\1.txt”
+net view /domain>>”C:\WINNT\Debug\1.txt”
+net group /domain>>”C:\WINNT\Debug\1.txt”
+net group “domain users” /domain>>”C:\WINNT\Debug\1.txt”
+net group “domain admins” /domain>>”C:\WINNT\Debug\1.txt”
+net group “domain controllers” /domain>>”C:\WINNT\Debug\1.txt”
+net group “exchange domain servers” /domain>>”C:\WINNT\Debug\1.txt”
+net group “exchange servers” /domain>>”C:\WINNT\Debug\1.txt”
+net group “domain computers” /domain>>”C:\WINNT\Debug\1.txt”
+
+Laternal Movement
+=================
+They can execute commands on other systems using the publicly available “psexec” tool from Microsoft
+Sysinternals or the built-in Windows Task Scheduler (“at.exe”)
+
+
+Complete Mission
+================
+an aPt1 batch script that bundles stolen files into rar archive files
+@echo off
+cd /d c:\windows\tasks
+rar.log a XXXXXXXX.rar -v200m “C:\Documents and Settings\Place\My
+Documents\XXXXXXXX” -hpsmy123!@#
+del *.vbs
+del %0
+
+The first, GETMAIL, was designed specifically to extract email messages, attachments, and folders from within Microsoft Outlook archive (“PST”) files.
+MAPIGET, was designed specifically to steal email that has not yet been archived and still resides on a Microsoft Exchange Server
+
+
+WEBC2,  is a c2c server that embedded commands in html tags for the backdoor to execute the commands on victims computer
+Tools such as MANITSME and WEBC2-UGX continue to be used by APT1 attackers based out of Shanghai.
+rootkit.com
+
+domains registered by Chen Ping were used to control PUttEr Panda malware
+
+RootKits
+=========
+An APT launches and initially deploys much the same as any other malware or cyber threat, and the model by which an APT targets, enters, and maintains persistence inside a target is called the kill chain
+Current rootkit detection methods and the application of those methods would be better facilitated through the following contributions to the practice of rootkit detection and elimination:
+1. A classification which clearly translates rootkit behavior to system-level activities and groups these activities by the types of modifications inflicted on the system.
+2. A classification of rootkit detection methods which can be directly applied to each domain of rootkit activity.
+
+In order to develop a more complete solution to detecting APTs before they are able to enter the Actions Step and spread to other hosts in the victim’s environment, it is useful to break the problem down into manageable units.
+1. Define activities performed by rootkit malware.
+2. Categorize these activities into domains of activity.
+3. Apply known detection methods to each of these domains.
+4. Analyze solutions for full-coverage, and identify malware-affected regions lacking coverage. 5. Propose solutions to provide full coverage. Provide metrics to evaluate full coverage.
+
+
+The disabling of security services may reveal the presence of the rootkit 
+
+The mYrk rootkit as detailed by SANS was “capable of hiding processes, files, network sniffing, modifying firewall rule-sets, and key logging”
+Layers of Rootkit Installation Indicators
+1. Static Evidence
+   * Standalone
+   * Overwritten
+   * Injected
+2. Regions of Activity
+   * Libraries
+   * APIs
+   * Configuration/Registry
+   * Drivers
+   * Address Tables
+   * Kernel Objects
+3. Methods
+   * Malicious Logic
+   * Trojanize DLL
+   * DKOM
+   * Filter Driver
+   * ASEP Hook
+   * API Detour
+   * Patching
+4. Dynamic Results for Operational Goals
+   * Malicious Logic, C2 Traffic, Keylogging, Hidden Processes
+
+Machine learning can be used to create a baseline from which heuristic rules are then created [16] [63]
+
+Machine learning is especially useful to generate predictions of possible attacks based off classification,
+text mining, clustering, and association [1]. According to Ahn et al., big data analysis applied in
+machine learning involves four stages: prediction, classification, relation, and analysis of atypical
+data [1]. Prediction of attack possibilities is based off known past attacks using regression analysis
+from attack logs. Classification can group new attacks based on markers from similar attacks. Relation
+links events based off user activities, and sequences based on time flow Atypical data consists of other
+information such as pictures, text, video, and even social mining [1] [2].
+
+
+For example, the malware target recognition (MaTR) architecture proposed by Dube et al., addresses
+malware detection by employing both static and dynamic techniques with machine learning for an attempt
+at a complete detection solution [16]. MaTR employs a three–layer pyramid structure with static detection
+serving as the foundation, followed by dynamic detection methods, and finally results which are
+determined by human operators.
+
+T1059.003                   Windows Command Shell
+T1036.005       Match Legitimate Name or Location
+T1119                    Automated Collection
+T1114.002                 Remote Email Collection
+T1560.001                     Archive via Utility
+T1135                 Network Share Discovery
+T1585.002                          Email Accounts
+T1057                       Process Discovery
+T1584.001                                 Domains
+T1016  System Network Configuration Discovery
+T1005                  Data from Local System
+T1588.002                                    Tool
+T1588.001                                 Malware
+T1114.001                  Local Email Collection
+T1566.002                      Spearphishing Link
+T1550.002                           Pass the Hash
+T1049    System Network Connections Discovery
+T1566.001                Spearphishing Attachment
+T1021.001                 Remote Desktop Protocol
+T1087.001                           Local Account
+T1007                System Service Discovery
+T1583.001                                 Domains
+T1003.001                            LSASS Memory
+
+
+https://github.com/SuperCowPowers/data_hacking/tree/master
+https://github.com/redcanaryco/atomic-red-team
